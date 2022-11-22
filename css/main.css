@@ -11,18 +11,18 @@
   --accent2: #F78A4D;
   --font-family-body: "../fonts/dm-sans/DMSans-Regular.ttf", serif;
   --font-family-header: "CabinetGrotesk-Bold", sans-serif;
-  --font-size-h1: 5.63rem;
-  --font-size-h2: 4.00rem;
-  --font-size-h3: 2.81rem;
-  --font-size-h4: 2.00rem;
-  --font-size-h5: 1.44rem;
+  --font-size-h1: 4.21rem;
+  --font-size-h2: 3.16rem;
+  --font-size-h3: 2.37rem;
+  --font-size-h4: 1.78rem;
+  --font-size-h5: 1.33rem;
   --font-size-h6: 1.00rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-header);
   margin: auto;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   font-style: normal;
   color: var(--white1);
 }
@@ -150,6 +150,62 @@ section.hero .wrapper .content .nav .wrapper .logo a:hover h4 {
   transition: all 0.3s ease 0s;
   color: var(--accent2);
 }
+section.hero .wrapper .content .hero-info {
+  width: 100%;
+  height: 41em;
+  top: 4em;
+  padding: 6em 5em;
+}
+section.hero .wrapper .content .hero-info .hero-main {
+  position: relative;
+  height: 20.3125em;
+  width: 35em;
+  text-align: left;
+  padding-bottom: 4.8125;
+}
+section.hero .wrapper .content .hero-info .hero-cta {
+  transition: all 0.3s ease 0s;
+  position: absolute;
+  width: 9.75em;
+  height: 5.3125em;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 0.8em;
+}
+section.hero .wrapper .content .hero-info .hero-cta a h4 {
+  transition: all 0.3s ease 0s;
+  color: var(--white2);
+}
+section.hero .wrapper .content .hero-info .hero-cta a img {
+  transition: all 0.3s ease 0s;
+  height: 3em;
+  width: 3em;
+  filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%);
+}
+section.hero .wrapper .content .hero-info .hero-cta:hover {
+  transition: all 0.3s ease 0s;
+  position: absolute;
+  width: 9.75em;
+  height: 5.3125em;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.hero .wrapper .content .hero-info .hero-cta:hover a h4 {
+  transition: all 0.3s ease 0s;
+  color: var(--accent2);
+}
+section.hero .wrapper .content .hero-info .hero-cta:hover a img {
+  transition: all 0.3s ease 0s;
+  filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
+}
 section.hero .wrapper .background {
   position: absolute;
   top: 0;
@@ -157,7 +213,7 @@ section.hero .wrapper .background {
   z-index: -100;
 }
 
-.hero .custom-shape-divider-bottom-1669126338 {
+.custom-shape-divider-bottom-1669143587 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -166,12 +222,14 @@ section.hero .wrapper .background {
   line-height: 0;
   transform: rotate(180deg);
 }
-.hero .custom-shape-divider-bottom-1669126338 svg {
+
+.custom-shape-divider-bottom-1669143587 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 150px;
+  height: 80px;
 }
-.hero .custom-shape-divider-bottom-1669126338 .shape-fill {
-  fill: var(--white2);
+
+.custom-shape-divider-bottom-1669143587 .shape-fill {
+  fill: #E2E2E2;
 }/*# sourceMappingURL=main.css.map */
