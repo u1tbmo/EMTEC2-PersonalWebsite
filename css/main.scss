@@ -1,0 +1,184 @@
+@import url('cabinet-grotesk.css');
+
+// Variables
+
+:root {
+    --pure-black: rgba(0,0,0,1);
+    --gray1: #4C5B6E;
+    --gray2: #A5B7BF;
+    --teal1: #417685;
+    --teal2: #417D8C;
+    --white1: #E4E9EC; // for text
+    --white2: #E2E2E2; // for backgrounds
+    
+    --font-family-body: "../fonts/dm-sans/DMSans-Regular.ttf", serif;
+    --font-family-header: "CabinetGrotesk-Bold", sans-serif;
+
+    --font-size-h1: 5.63rem;
+    --font-size-h2: 4.00rem;
+    --font-size-h3: 2.81rem;
+    --font-size-h4: 2.00rem;
+    --font-size-h5: 1.44rem;
+    --font-size-h6: 1.00rem;
+}
+
+// Classes
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-header);
+    margin: auto;
+    letter-spacing: 0em;
+    font-style: normal;
+    color: var(--white1);
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+}
+h2 {
+    font-size: var(--font-size-h2);
+}
+h3 {
+    font-size: var(--font-size-h3);
+}
+h4 {
+    font-size: var(--font-size-h4);
+}
+h5 {
+    font-size: var(--font-size-h5);
+}
+h6 {
+    font-size: var(--font-size-h6);
+}
+p {
+    font-size: var(--font-size-h6);
+    font-family: var(--font-family-body);
+    color: var(--white1);
+}
+
+body {
+    background-color: var(--white2);
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// CSS
+#gradient-canvas-hero {
+    top: 0;
+    left: 0;
+    width:100%;
+    height:45em;
+    z-index: 0;
+    --gradient-color-1: #043d5d;
+    --gradient-color-2: #032e46;
+    --gradient-color-3: #23b684;
+    --gradient-color-4: #0f595e;
+}
+
+// Cursors
+.logo {
+    cursor: pointer;
+}
+
+section.hero{
+    .wrapper{
+        position: relative;
+        width: 100%;
+        height: 45em;
+        .content{
+            position: relative;
+            z-index: 100;
+
+            .nav .wrapper {
+                width: 100%;
+                height: 4em;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0.75em 5em;
+
+                h4 a, h5 a{
+                    color: var(--white1);
+                }
+            }
+            
+            .nav .wrapper nav li {
+                list-style-type: none;
+                display: inline-block;
+                padding: 0 1.5em;
+
+                a {
+                    transition: all 0.3s ease 0s;
+                }
+
+                a:hover {
+                    transition: all 0.3s ease 0s;
+                    color: var(--gray2);
+                }
+            }
+
+            .nav .wrapper .nav-cta img {
+                filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%);
+            }
+
+            .nav .wrapper .nav-cta a{
+                transition: all 0.3s ease 0s;
+                display: flex;
+                align-items: center;
+            }
+            
+            .nav .wrapper .nav-cta a:hover {
+                transition: all 0.3s ease 0s;
+                display: flex;
+                align-items: center;
+                filter: invert(35%) sepia(4%) saturate(2633%) hue-rotate(174deg) brightness(95%) contrast(90%);
+            }
+
+            .nav .wrapper .logo{
+                transition: all 0.3s ease 0s;
+            }
+            
+            .nav .wrapper .logo:hover{
+                transition: all 0.3s ease 0s;
+                filter: invert(35%) sepia(4%) saturate(2633%) hue-rotate(174deg) brightness(95%) contrast(90%);
+            }
+        }
+        
+        .background{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -100;
+        }
+    }
+}
+
+.hero {
+    .custom-shape-divider-bottom-1669126338 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1669126338 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
+    
+    .custom-shape-divider-bottom-1669126338 .shape-fill {
+        fill: var(--white2);
+    }
+}
