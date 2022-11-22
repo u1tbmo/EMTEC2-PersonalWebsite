@@ -10,6 +10,8 @@
     --teal2: #417D8C;
     --white1: #E4E9EC; // for text
     --white2: #E2E2E2; // for backgrounds
+    --accent1: #855041;
+    --accent2: #F78A4D;
     
     --font-family-body: "../fonts/dm-sans/DMSans-Regular.ttf", serif;
     --font-family-header: "CabinetGrotesk-Bold", sans-serif;
@@ -120,12 +122,12 @@ section.hero{
 
                 a:hover {
                     transition: all 0.3s ease 0s;
-                    color: var(--gray2);
+                    color: var(--accent2);
                 }
             }
 
             .nav .wrapper .nav-cta img {
-                filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%);
+                filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%); // Changes white to black
             }
 
             .nav .wrapper .nav-cta a{
@@ -138,16 +140,26 @@ section.hero{
                 transition: all 0.3s ease 0s;
                 display: flex;
                 align-items: center;
-                filter: invert(35%) sepia(4%) saturate(2633%) hue-rotate(174deg) brightness(95%) contrast(90%);
+                img {
+                    transition: all 0.3s ease 0s;
+                    filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
+                }
+                h4 {
+                    transition: all 0.3s ease 0s;
+                    color: var(--accent2);
+                }
             }
 
-            .nav .wrapper .logo{
+            .nav .wrapper .logo a{
                 transition: all 0.3s ease 0s;
             }
             
-            .nav .wrapper .logo:hover{
+            .nav .wrapper .logo a:hover{
                 transition: all 0.3s ease 0s;
-                filter: invert(35%) sepia(4%) saturate(2633%) hue-rotate(174deg) brightness(95%) contrast(90%);
+                h4 {
+                    transition: all 0.3s ease 0s;
+                    color: var(--accent2);
+                }
             }
         }
         
