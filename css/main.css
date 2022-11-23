@@ -1,5 +1,5 @@
 @import url("cabinet-grotesk.css");
-@import url("dm-sans.css");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 :root {
   --pure-black: rgba(0,0,0,1);
   --gray1: #4C5B6E;
@@ -11,7 +11,7 @@
   --accent1: #855041;
   --accent2: #F78A4D;
   --smokyblack: #2d2d2d;
-  --font-family-body: "dm_sansregular", serif;
+  --font-family-body: "DM Sans", sans-serif;
   --font-family-header: "CabinetGrotesk-Bold", sans-serif;
   --font-size-h1: 4.21rem;
   --font-size-h2: 3.16rem;
