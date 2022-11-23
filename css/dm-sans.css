@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'dm_sansbold';
-    src: url('dmsans-bold-webfont.woff2') format('woff2'),
-         url('dmsans-bold-webfont.woff') format('woff');
+    src: url('/fonts/dm-sans/dmsans-bold-webfont.woff2') format('woff2'),
+         url('/fonts/dm-sans/dmsans-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'dm_sansbold_italic';
-    src: url('dmsans-bolditalic-webfont.woff2') format('woff2'),
-         url('dmsans-bolditalic-webfont.woff') format('woff');
+    src: url('/fonts/dm-sans/dmsans-bolditalic-webfont.woff2') format('woff2'),
+         url('/fonts/dm-sans/dmsans-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -28,8 +28,8 @@
 
 @font-face {
     font-family: 'dm_sansitalic';
-    src: url('dmsans-italic-webfont.woff2') format('woff2'),
-         url('dmsans-italic-webfont.woff') format('woff');
+    src: url('/fonts/dm-sans/dmsans-italic-webfont.woff2') format('woff2'),
+         url('/fonts/dm-sans/dmsans-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -40,8 +40,8 @@
 
 @font-face {
     font-family: 'dm_sansmedium';
-    src: url('dmsans-medium-webfont.woff2') format('woff2'),
-         url('dmsans-medium-webfont.woff') format('woff');
+    src: url('/fonts/dm-sans/dmsans-medium-webfont.woff2') format('woff2'),
+         url('/fonts/dm-sans/dmsans-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -52,8 +52,8 @@
 
 @font-face {
     font-family: 'dm_sansmedium_italic';
-    src: url('dmsans-mediumitalic-webfont.woff2') format('woff2'),
-         url('dmsans-mediumitalic-webfont.woff') format('woff');
+    src: url('/fonts/dm-sans/dmsans-mediumitalic-webfont.woff2') format('woff2'),
+         url('/fonts/dm-sans/dmsans-mediumitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -64,8 +64,8 @@
 
 @font-face {
     font-family: 'dm_sansregular';
-    src: url('dmsans-regular-webfont.woff2') format('woff2'),
-         url('dmsans-regular-webfont.woff') format('woff');
+    src: url('/fonts/dm-sans/dmsans-regular-webfont.woff2') format('woff2'),
+         url('/fonts/dm-sans/dmsans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
