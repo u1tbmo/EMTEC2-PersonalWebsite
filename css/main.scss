@@ -1,10 +1,5 @@
 @import url('cabinet-grotesk.css');
-
-// Font Faces
-@font-face {
-    font-family: DMSans-Regular;
-    src: url(../fonts/dm-sans/DMSans-Regular.ttf);
-}
+@import url('dm-sans.css');
 
 // Variables
 
@@ -20,7 +15,7 @@
     --accent2: #F78A4D;
     --smokyblack: #2d2d2d;
     
-    --font-family-body: "DMSans-Regular", serif;
+    --font-family-body: "dm_sansregular", serif;
     --font-family-header: "CabinetGrotesk-Bold", sans-serif;
 
     --font-size-h1: 4.21rem;
