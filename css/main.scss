@@ -61,6 +61,10 @@ p {
     color: var(--white1);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--white2);
     min-height: 100%;
