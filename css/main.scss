@@ -68,6 +68,8 @@ p {
 
 body {
     background-color: var(--white2);
+    min-height: 100%;
+    padding: 0;
 }
 
 a {
@@ -80,7 +82,7 @@ a {
     padding: 0;
 }
 
-// CSS
+// Canvases
 #gradient-canvas {
     width:100%;
     height:45em;
@@ -459,21 +461,50 @@ section.my-art {
 }
 
 section.about-section {
+    overflow: hidden;
+    margin: 0;
     .wrapper{
         position: relative;
         width: 100%;
         height: 22.5em;
         .content{
+            padding-top: 5em;
             position: relative;
             z-index: 100;
+            .about {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1em;
+                // h3 {
+                    
+                // }
+                ul {
+                    
+                    li {
+                        list-style-type: none;
+                        display: inline-block;
+                        img {
+                            width: 3rem;
+                            filter: invert(98%) sepia(2%) saturate(416%) hue-rotate(168deg) brightness(96%) contrast(93%);
+                        }
+                    }
+                }
+                // h6 {
+                    
+                // }
+            }
         }
-        .background{
+        .background {
             position: absolute;
             bottom: 0;
             left: 0;
             height: 22.5em;
             width: 100%;
             z-index: -100;
+            .canvas {
+                height: 100%;
+            }
         }
     }
 }

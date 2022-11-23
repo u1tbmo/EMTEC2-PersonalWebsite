@@ -66,6 +66,8 @@ p {
 
 body {
   background-color: var(--white2);
+  min-height: 100%;
+  padding: 0;
 }
 
 a {
@@ -419,14 +421,33 @@ section.my-art .image img {
   border-radius: 1em;
 }
 
+section.about-section {
+  overflow: hidden;
+  margin: 0;
+}
 section.about-section .wrapper {
   position: relative;
   width: 100%;
   height: 22.5em;
 }
 section.about-section .wrapper .content {
+  padding-top: 5em;
   position: relative;
   z-index: 100;
+}
+section.about-section .wrapper .content .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+section.about-section .wrapper .content .about ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+section.about-section .wrapper .content .about ul li img {
+  width: 3rem;
+  filter: invert(98%) sepia(2%) saturate(416%) hue-rotate(168deg) brightness(96%) contrast(93%);
 }
 section.about-section .wrapper .background {
   position: absolute;
@@ -435,4 +456,7 @@ section.about-section .wrapper .background {
   height: 22.5em;
   width: 100%;
   z-index: -100;
+}
+section.about-section .wrapper .background .canvas {
+  height: 100%;
 }/*# sourceMappingURL=main.css.map */
