@@ -360,7 +360,7 @@ section.my-code {
     .info-cta {
         display: flex;
         align-content: center;
-        justify-content: center;
+        justify-content: flex-end;
         margin: auto;
         h3 {
             margin: 0;
@@ -432,7 +432,7 @@ section.my-art {
     .info-cta {
         display: flex;
         align-content: center;
-        justify-content: center;
+        justify-content: flex-start;
         margin: auto;
         h3 {
             margin: 0;
@@ -475,9 +475,6 @@ section.about-section {
                 flex-direction: column;
                 align-items: center;
                 gap: 1em;
-                // h3 {
-                    
-                // }
                 ul {
                     
                     li {
@@ -489,9 +486,6 @@ section.about-section {
                         }
                     }
                 }
-                // h6 {
-                    
-                // }
             }
         }
         .background {

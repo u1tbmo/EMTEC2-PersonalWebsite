@@ -328,7 +328,7 @@ section.my-code .info p {
 section.my-code .info-cta {
   display: flex;
   align-content: center;
-  justify-content: center;
+  justify-content: flex-end;
   margin: auto;
 }
 section.my-code .info-cta h3 {
@@ -395,7 +395,7 @@ section.my-art .info p {
 section.my-art .info-cta {
   display: flex;
   align-content: center;
-  justify-content: center;
+  justify-content: flex-start;
   margin: auto;
 }
 section.my-art .info-cta h3 {
