@@ -61,6 +61,12 @@ p {
   color: var(--white1);
 }
 
+span.psmall {
+  font-size: var(--font-size-p-small);
+  font-family: var(--font-family-body);
+  color: var(--white1);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -81,7 +87,7 @@ a {
   padding: 0;
 }
 
-#gradient-canvas {
+#gradient-canvas-index {
   width: 100%;
   height: 45em;
   --gradient-color-1: #23b684;
@@ -101,6 +107,10 @@ a {
 
 .logo {
   cursor: pointer;
+}
+
+section.my-code h1, section.my-code h2, section.my-code h3, section.my-code h4, section.my-code h5, section.my-code h6, section.my-code p, section.my-code span.psmall, section.my-art h1, section.my-art h2, section.my-art h3, section.my-art h4, section.my-art h5, section.my-art h6, section.my-art p, section.my-art span.psmall, section.euanjed h1, section.euanjed h2, section.euanjed h3, section.euanjed h4, section.euanjed h5, section.euanjed h6, section.euanjed p, section.euanjed span.psmall, section.art1 h1, section.art1 h2, section.art1 h3, section.art1 h4, section.art1 h5, section.art1 h6, section.art1 p, section.art1 span.psmall, section.art2 h1, section.art2 h2, section.art2 h3, section.art2 h4, section.art2 h5, section.art2 h6, section.art2 p, section.art2 span.psmall, section.gallery h1, section.gallery h2, section.gallery h3, section.gallery h4, section.gallery h5, section.gallery h6, section.gallery p, section.gallery span.psmall, section.timelapses h1, section.timelapses h2, section.timelapses h3, section.timelapses h4, section.timelapses h5, section.timelapses h6, section.timelapses p, section.timelapses span.psmall {
+  color: var(--smokyblack);
 }
 
 .custom-shape-divider-bottom-1669143587 {
@@ -145,16 +155,16 @@ a {
   fill: var(--white2);
 }
 
-section.hero .wrapper {
+section.hero-index .wrapper {
   position: relative;
   width: 100%;
   height: 45em;
 }
-section.hero .wrapper .content {
+section.hero-index .wrapper .content {
   position: relative;
   z-index: 100;
 }
-section.hero .wrapper .content .nav .wrapper {
+section.hero-index .wrapper .content .nav .wrapper {
   width: 100%;
   height: 4em;
   display: flex;
@@ -162,68 +172,68 @@ section.hero .wrapper .content .nav .wrapper {
   align-items: center;
   padding: 0.75em 5em;
 }
-section.hero .wrapper .content .nav .wrapper h4 a, section.hero .wrapper .content .nav .wrapper h5 a {
+section.hero-index .wrapper .content .nav .wrapper h4 a, section.hero-index .wrapper .content .nav .wrapper h5 a {
   color: var(--white1);
 }
-section.hero .wrapper .content .nav .wrapper nav li {
+section.hero-index .wrapper .content .nav .wrapper nav li {
   list-style-type: none;
   display: inline-block;
   padding: 0 1.5em;
 }
-section.hero .wrapper .content .nav .wrapper nav li a {
+section.hero-index .wrapper .content .nav .wrapper nav li a {
   transition: all 0.3s ease 0s;
 }
-section.hero .wrapper .content .nav .wrapper nav li a:hover {
+section.hero-index .wrapper .content .nav .wrapper nav li a:hover {
   transition: all 0.3s ease 0s;
   color: var(--accent2);
 }
-section.hero .wrapper .content .nav .wrapper .nav-cta img {
+section.hero-index .wrapper .content .nav .wrapper .nav-cta img {
   width: 1.5rem;
   filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%);
 }
-section.hero .wrapper .content .nav .wrapper .nav-cta a {
+section.hero-index .wrapper .content .nav .wrapper .nav-cta a {
   transition: all 0.3s ease 0s;
   display: flex;
   align-items: center;
 }
-section.hero .wrapper .content .nav .wrapper .nav-cta a:hover {
+section.hero-index .wrapper .content .nav .wrapper .nav-cta a:hover {
   transition: all 0.3s ease 0s;
   display: flex;
   align-items: center;
 }
-section.hero .wrapper .content .nav .wrapper .nav-cta a:hover img {
+section.hero-index .wrapper .content .nav .wrapper .nav-cta a:hover img {
   transition: all 0.3s ease 0s;
   width: 1.5rem;
   filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
 }
-section.hero .wrapper .content .nav .wrapper .nav-cta a:hover h4 {
+section.hero-index .wrapper .content .nav .wrapper .nav-cta a:hover h4 {
   transition: all 0.3s ease 0s;
   color: var(--accent2);
 }
-section.hero .wrapper .content .nav .wrapper .logo a {
+section.hero-index .wrapper .content .nav .wrapper .logo a {
   transition: all 0.3s ease 0s;
 }
-section.hero .wrapper .content .nav .wrapper .logo a:hover {
+section.hero-index .wrapper .content .nav .wrapper .logo a:hover {
   transition: all 0.3s ease 0s;
 }
-section.hero .wrapper .content .nav .wrapper .logo a:hover h4 {
+section.hero-index .wrapper .content .nav .wrapper .logo a:hover h4 {
   transition: all 0.3s ease 0s;
   color: var(--accent2);
 }
-section.hero .wrapper .content .hero-info {
+section.hero-index .wrapper .content .hero-info {
   width: 100%;
   height: 41em;
   top: 4em;
   padding: 6em 5em;
 }
-section.hero .wrapper .content .hero-info .hero-main {
+section.hero-index .wrapper .content .hero-info .hero-main {
   position: relative;
   height: 20.3125em;
   width: 35em;
   text-align: left;
   padding-bottom: 4.8125;
 }
-section.hero .wrapper .content .hero-info .hero-cta {
+section.hero-index .wrapper .content .hero-info .hero-cta {
   transition: all 0.3s ease 0s;
   position: absolute;
   width: 9.75em;
@@ -236,17 +246,17 @@ section.hero .wrapper .content .hero-info .hero-cta {
   margin-right: auto;
   line-height: 0.8em;
 }
-section.hero .wrapper .content .hero-info .hero-cta a h4 {
+section.hero-index .wrapper .content .hero-info .hero-cta a h4 {
   transition: all 0.3s ease 0s;
   color: var(--white2);
 }
-section.hero .wrapper .content .hero-info .hero-cta a img {
+section.hero-index .wrapper .content .hero-info .hero-cta a img {
   transition: all 0.3s ease 0s;
   height: 3em;
   width: 3em;
   filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%);
 }
-section.hero .wrapper .content .hero-info .hero-cta:hover {
+section.hero-index .wrapper .content .hero-info .hero-cta:hover {
   transition: all 0.3s ease 0s;
   position: absolute;
   width: 9.75em;
@@ -258,25 +268,21 @@ section.hero .wrapper .content .hero-info .hero-cta:hover {
   margin-left: auto;
   margin-right: auto;
 }
-section.hero .wrapper .content .hero-info .hero-cta:hover a h4 {
+section.hero-index .wrapper .content .hero-info .hero-cta:hover a h4 {
   transition: all 0.3s ease 0s;
   color: var(--accent2);
 }
-section.hero .wrapper .content .hero-info .hero-cta:hover a img {
+section.hero-index .wrapper .content .hero-info .hero-cta:hover a img {
   transition: all 0.3s ease 0s;
   filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
 }
-section.hero .wrapper .background {
+section.hero-index .wrapper .background {
   position: absolute;
   top: 0;
   left: 0;
   height: 45em;
   width: 100%;
   z-index: -100;
-}
-
-section.my-code h1, section.my-code h2, section.my-code h3, section.my-code h4, section.my-code h5, section.my-code h6, section.my-code p, section.my-art h1, section.my-art h2, section.my-art h3, section.my-art h4, section.my-art h5, section.my-art h6, section.my-art p {
-  color: var(--smokyblack);
 }
 
 section about p {
@@ -460,4 +466,656 @@ section.about-section .wrapper .background {
 }
 section.about-section .wrapper .background .canvas {
   height: 100%;
+}
+
+#gradient-canvas-aboutme {
+  width: 100%;
+  height: 45em;
+  --gradient-color-1: #cc8506;
+  --gradient-color-2: #d9b604;
+  --gradient-color-3: #e37605;
+  --gradient-color-4: #e3a805;
+}
+
+.custom-shape-divider-bottom-1670139550 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1670139550 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-bottom-1670139550 .shape-fill {
+  fill: var(--white2);
+}
+
+section.hero-aboutme .wrapper {
+  position: relative;
+  width: 100%;
+  height: 45em;
+}
+section.hero-aboutme .wrapper .content {
+  position: relative;
+  z-index: 100;
+}
+section.hero-aboutme .wrapper .content .nav .wrapper {
+  width: 100%;
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75em 5em;
+}
+section.hero-aboutme .wrapper .content .nav .wrapper h4 a, section.hero-aboutme .wrapper .content .nav .wrapper h5 a {
+  color: var(--white1);
+}
+section.hero-aboutme .wrapper .content .nav .wrapper nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 1.5em;
+}
+section.hero-aboutme .wrapper .content .nav .wrapper nav li a {
+  transition: all 0.3s ease 0s;
+}
+section.hero-aboutme .wrapper .content .nav .wrapper nav li a:hover {
+  transition: all 0.3s ease 0s;
+  color: var(--accent2);
+}
+section.hero-aboutme .wrapper .content .nav .wrapper .nav-cta img {
+  width: 1.5rem;
+  filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%);
+}
+section.hero-aboutme .wrapper .content .nav .wrapper .nav-cta a {
+  transition: all 0.3s ease 0s;
+  display: flex;
+  align-items: center;
+}
+section.hero-aboutme .wrapper .content .nav .wrapper .nav-cta a:hover {
+  transition: all 0.3s ease 0s;
+  display: flex;
+  align-items: center;
+}
+section.hero-aboutme .wrapper .content .nav .wrapper .nav-cta a:hover img {
+  transition: all 0.3s ease 0s;
+  width: 1.5rem;
+  filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
+}
+section.hero-aboutme .wrapper .content .nav .wrapper .nav-cta a:hover h4 {
+  transition: all 0.3s ease 0s;
+  color: var(--accent2);
+}
+section.hero-aboutme .wrapper .content .nav .wrapper .logo a {
+  transition: all 0.3s ease 0s;
+}
+section.hero-aboutme .wrapper .content .nav .wrapper .logo a:hover {
+  transition: all 0.3s ease 0s;
+}
+section.hero-aboutme .wrapper .content .nav .wrapper .logo a:hover h4 {
+  transition: all 0.3s ease 0s;
+  color: var(--accent2);
+}
+section.hero-aboutme .wrapper .content .hero-info {
+  width: 100%;
+  height: 41em;
+  top: 4em;
+  padding: 6em 5em;
+}
+section.hero-aboutme .wrapper .content .hero-info .hero-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  height: 20.3125em;
+  width: 35em;
+  text-align: center;
+  padding-bottom: 4.8125;
+}
+section.hero-aboutme .wrapper .content .hero-info .hero-cta {
+  transition: all 0.3s ease 0s;
+  position: absolute;
+  width: 9.75em;
+  height: 5.3125em;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 0.8em;
+}
+section.hero-aboutme .wrapper .content .hero-info .hero-cta a h4 {
+  transition: all 0.3s ease 0s;
+  color: var(--white2);
+}
+section.hero-aboutme .wrapper .content .hero-info .hero-cta a img {
+  transition: all 0.3s ease 0s;
+  height: 3em;
+  width: 3em;
+  filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%);
+}
+section.hero-aboutme .wrapper .content .hero-info .hero-cta:hover {
+  transition: all 0.3s ease 0s;
+  position: absolute;
+  width: 9.75em;
+  height: 5.3125em;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.hero-aboutme .wrapper .content .hero-info .hero-cta:hover a h4 {
+  transition: all 0.3s ease 0s;
+  color: var(--accent2);
+}
+section.hero-aboutme .wrapper .content .hero-info .hero-cta:hover a img {
+  transition: all 0.3s ease 0s;
+  filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
+}
+section.hero-aboutme .wrapper .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 45em;
+  width: 100%;
+  z-index: -100;
+}
+
+section.euanjed {
+  margin: 2.5em 5em 10em 5em;
+}
+section.euanjed .row {
+  display: flex;
+  width: 100%;
+}
+section.euanjed .column {
+  flex: 50%;
+}
+section.euanjed .full-header {
+  width: 31.31em;
+  height: 4.13em;
+  margin: 0;
+}
+section.euanjed .full-header .header {
+  width: 31.31em;
+  height: 4.13em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.euanjed .full-header .header h2 {
+  text-align: left;
+}
+section.euanjed .full-header .header img {
+  vertical-align: middle;
+  width: 3.5rem;
+  filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
+}
+section.euanjed .info {
+  display: block;
+  margin-left: auto;
+  padding-top: 7.25em;
+  padding-bottom: 3.53125em;
+  width: 33.5em;
+}
+section.euanjed .info p {
+  text-align: right;
+}
+section.euanjed .info-cta {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  margin: auto;
+}
+section.euanjed .info-cta h3 {
+  margin: 0;
+}
+section.euanjed .info-cta img {
+  vertical-align: middle;
+  width: 3rem;
+  filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
+}
+section.euanjed .image {
+  padding-top: 1.9375em;
+}
+section.euanjed .image img {
+  width: 33.5em;
+  height: 25em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0%;
+     object-position: 0%;
+  border-radius: 1em;
+}
+
+#gradient-canvas-myart {
+  width: 100%;
+  height: 45em;
+  --gradient-color-1: #a435ff;
+  --gradient-color-2: #2a29ff;
+  --gradient-color-3: #ff29da;
+  --gradient-color-4: #5b25e8;
+}
+
+.custom-shape-divider-bottom-1670139929 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1670139929 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-bottom-1670139929 .shape-fill {
+  fill: var(--white2);
+}
+
+section.hero-myart .wrapper {
+  position: relative;
+  width: 100%;
+  height: 45em;
+}
+section.hero-myart .wrapper .content {
+  position: relative;
+  z-index: 100;
+}
+section.hero-myart .wrapper .content .nav .wrapper {
+  width: 100%;
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75em 5em;
+}
+section.hero-myart .wrapper .content .nav .wrapper h4 a, section.hero-myart .wrapper .content .nav .wrapper h5 a {
+  color: var(--white1);
+}
+section.hero-myart .wrapper .content .nav .wrapper nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 1.5em;
+}
+section.hero-myart .wrapper .content .nav .wrapper nav li a {
+  transition: all 0.3s ease 0s;
+}
+section.hero-myart .wrapper .content .nav .wrapper nav li a:hover {
+  transition: all 0.3s ease 0s;
+  color: var(--accent2);
+}
+section.hero-myart .wrapper .content .nav .wrapper .nav-cta img {
+  width: 1.5rem;
+  filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%);
+}
+section.hero-myart .wrapper .content .nav .wrapper .nav-cta a {
+  transition: all 0.3s ease 0s;
+  display: flex;
+  align-items: center;
+}
+section.hero-myart .wrapper .content .nav .wrapper .nav-cta a:hover {
+  transition: all 0.3s ease 0s;
+  display: flex;
+  align-items: center;
+}
+section.hero-myart .wrapper .content .nav .wrapper .nav-cta a:hover img {
+  transition: all 0.3s ease 0s;
+  width: 1.5rem;
+  filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
+}
+section.hero-myart .wrapper .content .nav .wrapper .nav-cta a:hover h4 {
+  transition: all 0.3s ease 0s;
+  color: var(--accent2);
+}
+section.hero-myart .wrapper .content .nav .wrapper .logo a {
+  transition: all 0.3s ease 0s;
+}
+section.hero-myart .wrapper .content .nav .wrapper .logo a:hover {
+  transition: all 0.3s ease 0s;
+}
+section.hero-myart .wrapper .content .nav .wrapper .logo a:hover h4 {
+  transition: all 0.3s ease 0s;
+  color: var(--accent2);
+}
+section.hero-myart .wrapper .content .hero-info {
+  width: 100%;
+  height: 41em;
+  top: 4em;
+  padding: 6em 5em;
+}
+section.hero-myart .wrapper .content .hero-info .hero-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  height: 20.3125em;
+  width: 35em;
+  text-align: center;
+  padding-bottom: 4.8125;
+}
+section.hero-myart .wrapper .content .hero-info .hero-cta {
+  transition: all 0.3s ease 0s;
+  position: absolute;
+  width: 9.75em;
+  height: 5.3125em;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 0.8em;
+}
+section.hero-myart .wrapper .content .hero-info .hero-cta a h4 {
+  transition: all 0.3s ease 0s;
+  color: var(--white2);
+}
+section.hero-myart .wrapper .content .hero-info .hero-cta a img {
+  transition: all 0.3s ease 0s;
+  height: 3em;
+  width: 3em;
+  filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%);
+}
+section.hero-myart .wrapper .content .hero-info .hero-cta:hover {
+  transition: all 0.3s ease 0s;
+  position: absolute;
+  width: 9.75em;
+  height: 5.3125em;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.hero-myart .wrapper .content .hero-info .hero-cta:hover a h4 {
+  transition: all 0.3s ease 0s;
+  color: var(--accent2);
+}
+section.hero-myart .wrapper .content .hero-info .hero-cta:hover a img {
+  transition: all 0.3s ease 0s;
+  filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
+}
+section.hero-myart .wrapper .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 45em;
+  width: 100%;
+  z-index: -100;
+}
+
+section.art1, section.art2 {
+  margin: 2.5em 5em 10em 5em;
+}
+section.art1 .row, section.art2 .row {
+  display: flex;
+  width: 100%;
+}
+section.art1 .column, section.art2 .column {
+  flex: 50%;
+}
+section.art1 .full-header, section.art2 .full-header {
+  width: 24em;
+  height: 4.13em;
+  margin: 0;
+}
+section.art1 .full-header .header, section.art2 .full-header .header {
+  width: 24em;
+  height: 4.13em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.art1 .full-header .header h2, section.art2 .full-header .header h2 {
+  text-align: left;
+}
+section.art1 .full-header .header img, section.art2 .full-header .header img {
+  vertical-align: middle;
+  width: 3.5rem;
+  filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
+}
+section.art1 .info, section.art2 .info {
+  display: block;
+  margin-left: auto;
+  padding-top: 7.25em;
+  padding-bottom: 3.53125em;
+  width: 33.5em;
+}
+section.art1 .info p, section.art2 .info p {
+  text-align: right;
+}
+section.art1 .info-cta, section.art2 .info-cta {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  margin: auto;
+}
+section.art1 .info-cta h3, section.art2 .info-cta h3 {
+  margin: 0;
+}
+section.art1 .info-cta img, section.art2 .info-cta img {
+  vertical-align: middle;
+  width: 3rem;
+  filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
+}
+section.art1 .image, section.art2 .image {
+  padding-top: 1.9375em;
+}
+section.art1 .image img, section.art2 .image img {
+  width: 33.5em;
+  height: 25em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 100% 35%;
+     object-position: 100% 35%;
+  border-radius: 1em;
+}
+
+section.gallery {
+  height: 105em;
+}
+section.gallery .wrapper .full-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 15.44em;
+  height: 7em;
+}
+section.gallery .wrapper .full-header .header {
+  width: 15.44em;
+  height: 4.13em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.gallery .wrapper .full-header .header h2 {
+  text-align: left;
+}
+section.gallery .wrapper .full-header .header img {
+  vertical-align: middle;
+  width: 3.5rem;
+  filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
+}
+section.gallery .wrapper .artGallery {
+  margin: 0 5em;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 6.52em;
+  gap: 1em;
+}
+section.gallery .wrapper .artGallery .box {
+  width: 20.19em;
+  position: relative;
+  border-radius: 1em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 0;
+}
+section.gallery .wrapper .artGallery .box:nth-of-type(1) img {
+  -o-object-position: 75%;
+     object-position: 75%;
+}
+section.gallery .wrapper .artGallery .box:nth-of-type(3) img {
+  -o-object-position: 50%;
+     object-position: 50%;
+}
+section.gallery .wrapper .artGallery .box .text {
+  position: absolute;
+  top: 0.5em;
+  left: 1em;
+}
+section.gallery .wrapper .artGallery .box .text h4, section.gallery .wrapper .artGallery .box .text span.psmall {
+  text-align: left;
+  color: var(--white1);
+  z-index: 2;
+}
+section.gallery .wrapper .artGallery .box img {
+  display: block;
+  width: 20.19em;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1em;
+}
+section.gallery .wrapper .artGallery .box.short {
+  grid-row: span 3;
+}
+section.gallery .wrapper .artGallery .box.tall {
+  grid-row: span 4;
+}
+section.gallery .wrapper .artGallery .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 1em;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 20%, rgba(255, 255, 255, 0) 100%);
+  z-index: 0;
+  border: 0;
+}
+section.gallery .wrapper .artGallery .box:before .text:before {
+  position: absolute;
+  top: 0.5em;
+  left: 1em;
+}
+section.gallery .wrapper .artGallery .box:before .text:before h4, section.gallery .wrapper .artGallery .box:before .text:before span.psmall {
+  text-align: left;
+  color: var(--white1);
+  z-index: 2;
+}
+
+section.timelapses {
+  margin: 0 5em;
+}
+section.timelapses .wrapper .full-majorheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em auto;
+  width: 22em;
+  height: 4.13em;
+}
+section.timelapses .wrapper .full-majorheader .majorheader {
+  width: 22em;
+  height: 4.13em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.timelapses .wrapper .full-majorheader .majorheader h2 {
+  text-align: left;
+}
+section.timelapses .wrapper .full-majorheader .majorheader img {
+  vertical-align: middle;
+  width: 3.5em;
+  filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
+}
+section.timelapses .wrapper .selfportraitday2022 {
+  height: 54.38em;
+}
+section.timelapses .wrapper .selfportraitday2022 .full-header {
+  width: 40em;
+  height: 5.88em;
+  margin: 0;
+  margin-bottom: 1.625em;
+}
+section.timelapses .wrapper .selfportraitday2022 .full-header .header {
+  width: 38.5em;
+  height: 4.13em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.timelapses .wrapper .selfportraitday2022 .full-header .header h2 {
+  text-align: left;
+}
+section.timelapses .wrapper .selfportraitday2022 .full-header .header img {
+  vertical-align: middle;
+  width: 3.5rem;
+  filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
+}
+section.timelapses .wrapper .selfportraitday2022 .video iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50em;
+  height: 28.13em;
+  border-radius: 1em;
+  margin: auto;
+}
+section.timelapses .wrapper .jonathanbailey {
+  height: 54.38em;
+}
+section.timelapses .wrapper .jonathanbailey .full-header {
+  width: 31.25em;
+  height: 5.88em;
+  margin: 0;
+  margin-bottom: 1.625em;
+}
+section.timelapses .wrapper .jonathanbailey .full-header .header {
+  width: 31.25em;
+  height: 4.13em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.timelapses .wrapper .jonathanbailey .full-header .header h2 {
+  text-align: left;
+}
+section.timelapses .wrapper .jonathanbailey .full-header .header img {
+  vertical-align: middle;
+  width: 3.5rem;
+  filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
+}
+section.timelapses .wrapper .jonathanbailey .video iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50em;
+  height: 28.13em;
+  border-radius: 1em;
+  margin: auto;
 }/*# sourceMappingURL=main.css.map */
