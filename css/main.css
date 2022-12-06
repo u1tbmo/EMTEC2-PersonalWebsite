@@ -1015,7 +1015,7 @@ section.gallery .wrapper .artGallery .box:before {
   right: 0;
   bottom: 0;
   border-radius: 1em;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 20%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 45%);
   z-index: 0;
   border: 0;
 }
