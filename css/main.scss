@@ -4,7 +4,7 @@
 // Variables
 
 :root {
-    --pure-black: rgba(0,0,0,1);
+    --pure-black: rgba(0, 0, 0, 1);
     --gray1: #4C5B6E;
     --gray2: #A5B7BF;
     --teal1: #417685;
@@ -14,7 +14,7 @@
     --accent1: #855041;
     --accent2: #F78A4D;
     --smokyblack: #2d2d2d;
-    
+
     --font-family-body: 'DM Sans', sans-serif;
     --font-family-header: "CabinetGrotesk-Bold", sans-serif;
 
@@ -29,7 +29,12 @@
 }
 
 // Classes
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-family-header);
     margin: auto;
     letter-spacing: 0;
@@ -40,21 +45,27 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: var(--font-size-h1);
 }
+
 h2 {
     font-size: var(--font-size-h2);
 }
+
 h3 {
     font-size: var(--font-size-h3);
 }
+
 h4 {
     font-size: var(--font-size-h4);
 }
+
 h5 {
     font-size: var(--font-size-h5);
 }
+
 h6 {
     font-size: var(--font-size-h6);
 }
+
 p {
     font-size: var(--font-size-p);
     font-family: var(--font-family-body);
@@ -89,22 +100,22 @@ a {
 
 // Canvases
 #gradient-canvas-index {
-    width:100%;
-    height:45em;
-    --gradient-color-1: #23b684; 
-    --gradient-color-2: #1b9ec2; 
-    --gradient-color-3: #1dc660;  
+    width: 100%;
+    height: 45em;
+    --gradient-color-1: #23b684;
+    --gradient-color-2: #1b9ec2;
+    --gradient-color-3: #1dc660;
     --gradient-color-4: #1dccc3;
-  }
+}
 
-  #gradient-canvas-footer {
-    width:100%;
-    height:22.5em;
-    --gradient-color-1: #4d4d4d; 
-    --gradient-color-2: #363636; 
-    --gradient-color-3: #2d2d2d;  
+#gradient-canvas-footer {
+    width: 100%;
+    height: 22.5em;
+    --gradient-color-1: #4d4d4d;
+    --gradient-color-2: #363636;
+    --gradient-color-3: #2d2d2d;
     --gradient-color-4: #292929;
-  }
+}
 
 // Cursors
 .logo {
@@ -112,8 +123,22 @@ a {
 }
 
 // Dark and Light Text Switching
-section.my-code, section.my-art, section.euanjed, section.art1, section.art2, section.gallery, section.timelapses{
-    h1, h2, h3, h4, h5, h6, p, span.psmall {
+section.my-code,
+section.my-art,
+section.euanjed,
+section.art1,
+section.art2,
+section.gallery,
+section.timelapses {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    span.psmall {
         color: var(--smokyblack);
     }
 }
@@ -161,12 +186,13 @@ section.my-code, section.my-art, section.euanjed, section.art1, section.art2, se
     fill: var(--white2);
 }
 
-section.hero-index{
-    .wrapper{
+section.hero-index {
+    .wrapper {
         position: relative;
         width: 100%;
         height: 45em;
-        .content{
+
+        .content {
             position: relative;
             z-index: 100;
 
@@ -178,11 +204,12 @@ section.hero-index{
                 align-items: center;
                 padding: 0.75em 5em;
 
-                h4 a, h5 a{
+                h4 a,
+                h5 a {
                     color: var(--white1);
                 }
             }
-            
+
             .nav .wrapper nav li {
                 list-style-type: none;
                 display: inline-block;
@@ -203,33 +230,36 @@ section.hero-index{
                 filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%); // Changes white to black
             }
 
-            .nav .wrapper .nav-cta a{
+            .nav .wrapper .nav-cta a {
                 transition: all 0.3s ease 0s;
                 display: flex;
                 align-items: center;
             }
-            
+
             .nav .wrapper .nav-cta a:hover {
                 transition: all 0.3s ease 0s;
                 display: flex;
                 align-items: center;
+
                 img {
                     transition: all 0.3s ease 0s;
                     width: 1.5rem;
                     filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
                 }
+
                 h4 {
                     transition: all 0.3s ease 0s;
                     color: var(--accent2);
                 }
             }
 
-            .nav .wrapper .logo a{
+            .nav .wrapper .logo a {
                 transition: all 0.3s ease 0s;
             }
-            
-            .nav .wrapper .logo a:hover{
+
+            .nav .wrapper .logo a:hover {
                 transition: all 0.3s ease 0s;
+
                 h4 {
                     transition: all 0.3s ease 0s;
                     color: var(--accent2);
@@ -241,14 +271,14 @@ section.hero-index{
                 height: 41em;
                 top: 4em;
                 padding: 6em 5em;
-                
+
                 .hero-main {
                     position: relative;
                     height: 20.3125em;
                     width: 35em;
                     text-align: left;
                     padding-bottom: 4.8125;
-                    
+
                 }
 
                 .hero-cta {
@@ -263,11 +293,12 @@ section.hero-index{
                     margin-left: auto;
                     margin-right: auto;
                     line-height: 0.8em;
+
                     a h4 {
                         transition: all 0.3s ease 0s;
                         color: var(--white2);
                     }
-                    
+
 
                     a img {
                         transition: all 0.3s ease 0s;
@@ -288,10 +319,12 @@ section.hero-index{
                     bottom: 5em;
                     margin-left: auto;
                     margin-right: auto;
+
                     a h4 {
                         transition: all 0.3s ease 0s;
-                                color: var(--accent2);
+                        color: var(--accent2);
                     }
+
                     a img {
                         transition: all 0.3s ease 0s;
                         filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
@@ -299,8 +332,8 @@ section.hero-index{
                 }
             }
         }
-        
-        .background{
+
+        .background {
             position: absolute;
             top: 0;
             left: 0;
@@ -321,18 +354,21 @@ section about {
 
 section.my-code {
     margin: 2.5em 5em 10em 5em;
+
     .row {
         display: flex;
         width: 100%;
     }
+
     .column {
         flex: 50%;
     }
 
-    .full-header{
+    .full-header {
         width: 21.94em;
         height: 5.56em;
         margin: 0;
+
         .header {
             width: 16.75em;
             height: 3.94em;
@@ -344,6 +380,7 @@ section.my-code {
                 text-align: left;
                 // margin-left: 0;
             }
+
             img {
                 vertical-align: middle;
                 width: 3.5rem;
@@ -369,9 +406,11 @@ section.my-code {
         align-content: center;
         justify-content: flex-end;
         margin: auto;
+
         h3 {
             margin: 0;
         }
+
         img {
             vertical-align: middle;
             width: 3rem;
@@ -381,31 +420,35 @@ section.my-code {
 
     .image {
         padding-top: 1.9375em;
+
         img {
             width: 33.50em;
             height: 25.00em;
             object-fit: cover;
             object-position: 0%;
             border-radius: 1em;
-        } 
+        }
     }
 }
 
 section.my-art {
     margin: 2.5em 5em 10em 5em;
+
     .row {
         display: flex;
         width: 100%;
     }
+
     .column {
         flex: 50%;
     }
 
-    .full-header{
+    .full-header {
         float: right;
         width: 17.81em;
         height: 5.56em;
         margin: 0;
+
         .header {
             float: right;
             width: 14.19em;
@@ -419,6 +462,7 @@ section.my-art {
                 vertical-align: middle;
                 // margin-left: 0;
             }
+
             img {
                 width: 3.5rem;
                 filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
@@ -441,9 +485,11 @@ section.my-art {
         align-content: center;
         justify-content: flex-start;
         margin: auto;
+
         h3 {
             margin: 0;
         }
+
         img {
             vertical-align: middle;
             width: 3rem;
@@ -454,6 +500,7 @@ section.my-art {
     .image {
         clear: right;
         padding-top: 1.9375em;
+
         img {
             display: block;
             margin-left: auto;
@@ -462,21 +509,24 @@ section.my-art {
             object-fit: cover;
             object-position: 100%;
             border-radius: 1em;
-        } 
+        }
     }
 }
 
 section.about-section {
     overflow: hidden;
     margin: 0;
-    .wrapper{
+
+    .wrapper {
         position: relative;
         width: 100%;
         height: 22.5em;
-        .content{
+
+        .content {
             padding-top: 5em;
             position: relative;
             z-index: 100;
+
             .about {
                 display: flex;
                 flex-direction: column;
@@ -486,11 +536,13 @@ section.about-section {
                 h6 .attribution a {
                     color: var(--accent2);
                 }
+
                 ul {
-                    
+
                     li {
                         list-style-type: none;
                         display: inline-block;
+
                         img {
                             width: 3rem;
                             filter: invert(98%) sepia(2%) saturate(416%) hue-rotate(168deg) brightness(96%) contrast(93%);
@@ -499,6 +551,7 @@ section.about-section {
                 }
             }
         }
+
         .background {
             position: absolute;
             bottom: 0;
@@ -506,6 +559,7 @@ section.about-section {
             height: 22.5em;
             width: 100%;
             z-index: -100;
+
             .canvas {
                 height: 100%;
             }
@@ -518,13 +572,13 @@ section.about-section {
 // Canvas
 
 #gradient-canvas-aboutme {
-    width:100%;
-    height:45em;
-    --gradient-color-1: #cc8506; 
-    --gradient-color-2: #d9b604; 
-    --gradient-color-3: #e37605;  
+    width: 100%;
+    height: 45em;
+    --gradient-color-1: #cc8506;
+    --gradient-color-2: #d9b604;
+    --gradient-color-3: #e37605;
     --gradient-color-4: #e3a805;
-  }
+}
 
 // Shape Dividers
 .custom-shape-divider-bottom-1670139550 {
@@ -551,12 +605,13 @@ section.about-section {
 
 // CSS
 
-section.hero-aboutme{
-    .wrapper{
+section.hero-aboutme {
+    .wrapper {
         position: relative;
         width: 100%;
         height: 45em;
-        .content{
+
+        .content {
             position: relative;
             z-index: 100;
 
@@ -568,11 +623,12 @@ section.hero-aboutme{
                 align-items: center;
                 padding: 0.75em 5em;
 
-                h4 a, h5 a{
+                h4 a,
+                h5 a {
                     color: var(--white1);
                 }
             }
-            
+
             .nav .wrapper nav li {
                 list-style-type: none;
                 display: inline-block;
@@ -593,36 +649,39 @@ section.hero-aboutme{
                 filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%); // Changes white to black
             }
 
-            .nav .wrapper .nav-cta a{
+            .nav .wrapper .nav-cta a {
                 transition: all 0.3s ease 0s;
                 display: flex;
                 align-items: center;
             }
-            
+
             .nav .wrapper .nav-cta a:hover {
                 transition: all 0.3s ease 0s;
                 display: flex;
                 align-items: center;
+
                 img {
                     transition: all 0.3s ease 0s;
                     width: 1.5rem;
                     filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
                 }
+
                 h4 {
                     transition: all 0.3s ease 0s;
                     color: var(--accent2);
                 }
             }
 
-            .nav .wrapper .logo a{
+            .nav .wrapper .logo a {
                 transition: all 0.3s ease 0s;
             }
-            
-            .nav .wrapper .logo a:hover{
+
+            .nav .wrapper .logo a:hover {
                 transition: all 0.3s ease 0s;
+
                 h4 {
                     transition: all 0.3s ease 0s;
-                    color: var(--accent2); 
+                    color: var(--accent2);
                 }
             }
 
@@ -631,7 +690,7 @@ section.hero-aboutme{
                 height: 41em;
                 top: 4em;
                 padding: 6em 5em;
-                
+
                 .hero-main {
                     display: flex;
                     justify-content: center;
@@ -642,7 +701,7 @@ section.hero-aboutme{
                     width: 35em;
                     text-align: center;
                     padding-bottom: 4.8125;
-                    
+
                 }
 
                 .hero-cta {
@@ -657,11 +716,12 @@ section.hero-aboutme{
                     margin-left: auto;
                     margin-right: auto;
                     line-height: 0.8em;
+
                     a h4 {
                         transition: all 0.3s ease 0s;
                         color: var(--white2);
                     }
-                    
+
 
                     a img {
                         transition: all 0.3s ease 0s;
@@ -682,10 +742,12 @@ section.hero-aboutme{
                     bottom: 5em;
                     margin-left: auto;
                     margin-right: auto;
+
                     a h4 {
                         transition: all 0.3s ease 0s;
-                                color: var(--accent2);
+                        color: var(--accent2);
                     }
+
                     a img {
                         transition: all 0.3s ease 0s;
                         filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
@@ -693,8 +755,8 @@ section.hero-aboutme{
                 }
             }
         }
-        
-        .background{
+
+        .background {
             position: absolute;
             top: 0;
             left: 0;
@@ -707,18 +769,21 @@ section.hero-aboutme{
 
 section.euanjed {
     margin: 2.5em 5em 10em 5em;
+
     .row {
         display: flex;
         width: 100%;
     }
+
     .column {
         flex: 50%;
     }
 
-    .full-header{
+    .full-header {
         width: 31.31em;
         height: 4.13em;
         margin: 0;
+
         .header {
             width: 31.31em;
             height: 4.13em;
@@ -730,6 +795,7 @@ section.euanjed {
                 text-align: left;
                 // margin-left: 0;
             }
+
             img {
                 vertical-align: middle;
                 width: 3.5rem;
@@ -755,9 +821,11 @@ section.euanjed {
         align-content: center;
         justify-content: flex-end;
         margin: auto;
+
         h3 {
             margin: 0;
         }
+
         img {
             vertical-align: middle;
             width: 3rem;
@@ -767,13 +835,14 @@ section.euanjed {
 
     .image {
         padding-top: 1.9375em;
+
         img {
             width: 33.50em;
             height: 25.00em;
             object-fit: cover;
             object-position: 0%;
             border-radius: 1em;
-        } 
+        }
     }
 }
 
@@ -783,13 +852,13 @@ section.euanjed {
 
 // Canvas
 #gradient-canvas-myart {
-    width:100%;
-    height:45em;
-    --gradient-color-1: #a435ff; 
-    --gradient-color-2: #2a29ff; 
-    --gradient-color-3: #ff29da;  
+    width: 100%;
+    height: 45em;
+    --gradient-color-1: #a435ff;
+    --gradient-color-2: #2a29ff;
+    --gradient-color-3: #ff29da;
     --gradient-color-4: #5b25e8;
-  }
+}
 
 // Shape Dividers
 
@@ -816,12 +885,13 @@ section.euanjed {
 
 // CSS
 
-section.hero-myart{
-    .wrapper{
+section.hero-myart {
+    .wrapper {
         position: relative;
         width: 100%;
         height: 45em;
-        .content{
+
+        .content {
             position: relative;
             z-index: 100;
 
@@ -833,11 +903,12 @@ section.hero-myart{
                 align-items: center;
                 padding: 0.75em 5em;
 
-                h4 a, h5 a{
+                h4 a,
+                h5 a {
                     color: var(--white1);
                 }
             }
-            
+
             .nav .wrapper nav li {
                 list-style-type: none;
                 display: inline-block;
@@ -858,36 +929,39 @@ section.hero-myart{
                 filter: invert(89%) sepia(5%) saturate(637%) hue-rotate(189deg) brightness(110%) contrast(85%); // Changes white to black
             }
 
-            .nav .wrapper .nav-cta a{
+            .nav .wrapper .nav-cta a {
                 transition: all 0.3s ease 0s;
                 display: flex;
                 align-items: center;
             }
-            
+
             .nav .wrapper .nav-cta a:hover {
                 transition: all 0.3s ease 0s;
                 display: flex;
                 align-items: center;
+
                 img {
                     transition: all 0.3s ease 0s;
                     width: 1.5rem;
                     filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
                 }
+
                 h4 {
                     transition: all 0.3s ease 0s;
                     color: var(--accent2);
                 }
             }
 
-            .nav .wrapper .logo a{
+            .nav .wrapper .logo a {
                 transition: all 0.3s ease 0s;
             }
-            
-            .nav .wrapper .logo a:hover{
+
+            .nav .wrapper .logo a:hover {
                 transition: all 0.3s ease 0s;
+
                 h4 {
                     transition: all 0.3s ease 0s;
-                    color: var(--accent2); 
+                    color: var(--accent2);
                 }
             }
 
@@ -896,7 +970,7 @@ section.hero-myart{
                 height: 41em;
                 top: 4em;
                 padding: 6em 5em;
-                
+
                 .hero-main {
                     display: flex;
                     justify-content: center;
@@ -907,7 +981,7 @@ section.hero-myart{
                     width: 35em;
                     text-align: center;
                     padding-bottom: 4.8125;
-                    
+
                 }
 
                 .hero-cta {
@@ -922,11 +996,12 @@ section.hero-myart{
                     margin-left: auto;
                     margin-right: auto;
                     line-height: 0.8em;
+
                     a h4 {
                         transition: all 0.3s ease 0s;
                         color: var(--white2);
                     }
-                    
+
 
                     a img {
                         transition: all 0.3s ease 0s;
@@ -947,10 +1022,12 @@ section.hero-myart{
                     bottom: 5em;
                     margin-left: auto;
                     margin-right: auto;
+
                     a h4 {
                         transition: all 0.3s ease 0s;
-                                color: var(--accent2);
+                        color: var(--accent2);
                     }
+
                     a img {
                         transition: all 0.3s ease 0s;
                         filter: invert(78%) sepia(38%) saturate(5407%) hue-rotate(328deg) brightness(103%) contrast(94%);
@@ -958,8 +1035,8 @@ section.hero-myart{
                 }
             }
         }
-        
-        .background{
+
+        .background {
             position: absolute;
             top: 0;
             left: 0;
@@ -970,20 +1047,24 @@ section.hero-myart{
     }
 }
 
-section.art1, section.art2 {
+section.art1,
+section.art2 {
     margin: 2.5em 5em 10em 5em;
+
     .row {
         display: flex;
         width: 100%;
     }
+
     .column {
         flex: 50%;
     }
 
-    .full-header{
+    .full-header {
         width: 24.00em;
         height: 4.13em;
         margin: 0;
+
         .header {
             width: 24.00em;
             height: 4.13em;
@@ -994,6 +1075,7 @@ section.art1, section.art2 {
             h2 {
                 text-align: left;
             }
+
             img {
                 vertical-align: middle;
                 width: 3.5rem;
@@ -1019,9 +1101,11 @@ section.art1, section.art2 {
         align-content: center;
         justify-content: flex-end;
         margin: auto;
+
         h3 {
             margin: 0;
         }
+
         img {
             vertical-align: middle;
             width: 3rem;
@@ -1031,37 +1115,41 @@ section.art1, section.art2 {
 
     .image {
         padding-top: 1.9375em;
+
         img {
             width: 33.50em;
             height: 25.00em;
             object-fit: cover;
             object-position: 100% 35%;
             border-radius: 1em;
-        } 
+        }
     }
 }
 
 section.gallery {
     height: 105em;
+
     .wrapper {
         .full-header {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin: auto;
-                width: 15.44em;
-                height: 7em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            width: 15.44em;
+            height: 7em;
+
             .header {
                 width: 15.44em;
                 height: 4.13em;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-    
+
                 h2 {
                     text-align: left;
                     // margin-left: 0;
                 }
+
                 img {
                     vertical-align: middle;
                     width: 3.5rem;
@@ -1069,6 +1157,7 @@ section.gallery {
                 }
             }
         }
+
         .artGallery {
             // max-width: 75em;
             margin: 0 5em;
@@ -1080,25 +1169,30 @@ section.gallery {
 
             .box {
                 width: 20.19em;
-                // overflow: hidden;
-                // display: inline-block;
                 position: relative;
                 border-radius: 1em;
                 object-fit: cover;
                 border: 0;
 
-                &:nth-of-type(1) { img { object-position: 75%; } }
-                &:nth-of-type(3) { img { object-position: 50%; } }
-                // &:nth-of-type(5) { .text { h4, span.psmall {color: var(--smokyblack);} } }
-                // &:nth-of-type(6) { .text { h4, span.psmall {color: var(--smokyblack);} } }
-                // &:nth-of-type(7) { .text { h4, span.psmall {color: var(--smokyblack);} } }
-                // &:nth-of-type(8) { .text { h4, span.psmall {color: var(--smokyblack);} } }
+                &:nth-of-type(1) {
+                    img {
+                        object-position: 75%;
+                    }
+                }
+
+                &:nth-of-type(3) {
+                    img {
+                        object-position: 50%;
+                    }
+                }
 
                 .text {
                     position: absolute;
                     top: 0.5em;
                     left: 1em;
-                    h4, span.psmall {
+
+                    h4,
+                    span.psmall {
                         text-align: left;
                         color: var(--white1);
                         z-index: 2;
@@ -1114,7 +1208,7 @@ section.gallery {
                     // z-index: -1;
                 }
 
-                
+
             }
 
             .box.short {
@@ -1127,13 +1221,13 @@ section.gallery {
 
             .box:before {
                 content: '';
-                position:absolute;
-                top:0;
+                position: absolute;
+                top: 0;
                 left: 0;
                 right: 0;
                 bottom: 0;
                 border-radius: 1em;
-                background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(255,255,255,0) 45%);
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 45%);
                 z-index: 0;
                 border: 0;
 
@@ -1141,7 +1235,9 @@ section.gallery {
                     position: absolute;
                     top: 0.5em;
                     left: 1em;
-                    h4, span.psmall {
+
+                    h4,
+                    span.psmall {
                         text-align: left;
                         color: var(--white1);
                         z-index: 2;
@@ -1154,6 +1250,7 @@ section.gallery {
 
 section.timelapses {
     margin: 0 5em;
+
     .wrapper .full-majorheader {
         display: flex;
         align-items: center;
@@ -1173,6 +1270,7 @@ section.timelapses {
                 text-align: left;
                 // margin-left: 0;
             }
+
             img {
                 vertical-align: middle;
                 width: 3.5em;
@@ -1184,21 +1282,24 @@ section.timelapses {
     .wrapper {
         .selfportraitday2022 {
             height: 54.38em;
-            .full-header{
+
+            .full-header {
                 width: 40em;
                 height: 5.88em;
                 margin: 0;
                 margin-bottom: 1.625em;
+
                 .header {
                     width: 38.50em;
                     height: 4.13em;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-        
+
                     h2 {
                         text-align: left;
                     }
+
                     img {
                         vertical-align: middle;
                         width: 3.5rem;
@@ -1206,6 +1307,7 @@ section.timelapses {
                     }
                 }
             }
+
             .video iframe {
                 display: flex;
                 justify-content: center;
@@ -1219,21 +1321,24 @@ section.timelapses {
 
         .jonathanbailey {
             height: 54.38em;
-            .full-header{
+
+            .full-header {
                 width: 31.25em;
                 height: 5.88em;
                 margin: 0;
-                margin-bottom: 1.625em; 
+                margin-bottom: 1.625em;
+
                 .header {
                     width: 31.25em;
                     height: 4.13em;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-        
+
                     h2 {
                         text-align: left;
                     }
+
                     img {
                         vertical-align: middle;
                         width: 3.5rem;
@@ -1241,6 +1346,7 @@ section.timelapses {
                     }
                 }
             }
+
             .video iframe {
                 display: flex;
                 justify-content: center;
@@ -1253,4 +1359,3 @@ section.timelapses {
         }
     }
 }
-

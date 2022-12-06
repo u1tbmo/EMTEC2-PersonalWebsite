@@ -1,7 +1,7 @@
 @import url("cabinet-grotesk.css");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 :root {
-  --pure-black: rgba(0,0,0,1);
+  --pure-black: rgba(0, 0, 0, 1);
   --gray1: #4C5B6E;
   --gray2: #A5B7BF;
   --teal1: #417685;
@@ -23,7 +23,12 @@
   --font-size-p-small: 1.00rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-family-header);
   margin: auto;
   letter-spacing: 0;
@@ -109,7 +114,62 @@ a {
   cursor: pointer;
 }
 
-section.my-code h1, section.my-code h2, section.my-code h3, section.my-code h4, section.my-code h5, section.my-code h6, section.my-code p, section.my-code span.psmall, section.my-art h1, section.my-art h2, section.my-art h3, section.my-art h4, section.my-art h5, section.my-art h6, section.my-art p, section.my-art span.psmall, section.euanjed h1, section.euanjed h2, section.euanjed h3, section.euanjed h4, section.euanjed h5, section.euanjed h6, section.euanjed p, section.euanjed span.psmall, section.art1 h1, section.art1 h2, section.art1 h3, section.art1 h4, section.art1 h5, section.art1 h6, section.art1 p, section.art1 span.psmall, section.art2 h1, section.art2 h2, section.art2 h3, section.art2 h4, section.art2 h5, section.art2 h6, section.art2 p, section.art2 span.psmall, section.gallery h1, section.gallery h2, section.gallery h3, section.gallery h4, section.gallery h5, section.gallery h6, section.gallery p, section.gallery span.psmall, section.timelapses h1, section.timelapses h2, section.timelapses h3, section.timelapses h4, section.timelapses h5, section.timelapses h6, section.timelapses p, section.timelapses span.psmall {
+section.my-code h1,
+section.my-code h2,
+section.my-code h3,
+section.my-code h4,
+section.my-code h5,
+section.my-code h6,
+section.my-code p,
+section.my-code span.psmall,
+section.my-art h1,
+section.my-art h2,
+section.my-art h3,
+section.my-art h4,
+section.my-art h5,
+section.my-art h6,
+section.my-art p,
+section.my-art span.psmall,
+section.euanjed h1,
+section.euanjed h2,
+section.euanjed h3,
+section.euanjed h4,
+section.euanjed h5,
+section.euanjed h6,
+section.euanjed p,
+section.euanjed span.psmall,
+section.art1 h1,
+section.art1 h2,
+section.art1 h3,
+section.art1 h4,
+section.art1 h5,
+section.art1 h6,
+section.art1 p,
+section.art1 span.psmall,
+section.art2 h1,
+section.art2 h2,
+section.art2 h3,
+section.art2 h4,
+section.art2 h5,
+section.art2 h6,
+section.art2 p,
+section.art2 span.psmall,
+section.gallery h1,
+section.gallery h2,
+section.gallery h3,
+section.gallery h4,
+section.gallery h5,
+section.gallery h6,
+section.gallery p,
+section.gallery span.psmall,
+section.timelapses h1,
+section.timelapses h2,
+section.timelapses h3,
+section.timelapses h4,
+section.timelapses h5,
+section.timelapses h6,
+section.timelapses p,
+section.timelapses span.psmall {
   color: var(--smokyblack);
 }
 
@@ -172,7 +232,8 @@ section.hero-index .wrapper .content .nav .wrapper {
   align-items: center;
   padding: 0.75em 5em;
 }
-section.hero-index .wrapper .content .nav .wrapper h4 a, section.hero-index .wrapper .content .nav .wrapper h5 a {
+section.hero-index .wrapper .content .nav .wrapper h4 a,
+section.hero-index .wrapper .content .nav .wrapper h5 a {
   color: var(--white1);
 }
 section.hero-index .wrapper .content .nav .wrapper nav li {
@@ -518,7 +579,8 @@ section.hero-aboutme .wrapper .content .nav .wrapper {
   align-items: center;
   padding: 0.75em 5em;
 }
-section.hero-aboutme .wrapper .content .nav .wrapper h4 a, section.hero-aboutme .wrapper .content .nav .wrapper h5 a {
+section.hero-aboutme .wrapper .content .nav .wrapper h4 a,
+section.hero-aboutme .wrapper .content .nav .wrapper h5 a {
   color: var(--white1);
 }
 section.hero-aboutme .wrapper .content .nav .wrapper nav li {
@@ -749,7 +811,8 @@ section.hero-myart .wrapper .content .nav .wrapper {
   align-items: center;
   padding: 0.75em 5em;
 }
-section.hero-myart .wrapper .content .nav .wrapper h4 a, section.hero-myart .wrapper .content .nav .wrapper h5 a {
+section.hero-myart .wrapper .content .nav .wrapper h4 a,
+section.hero-myart .wrapper .content .nav .wrapper h5 a {
   color: var(--white1);
 }
 section.hero-myart .wrapper .content .nav .wrapper nav li {
@@ -866,64 +929,78 @@ section.hero-myart .wrapper .background {
   z-index: -100;
 }
 
-section.art1, section.art2 {
+section.art1,
+section.art2 {
   margin: 2.5em 5em 10em 5em;
 }
-section.art1 .row, section.art2 .row {
+section.art1 .row,
+section.art2 .row {
   display: flex;
   width: 100%;
 }
-section.art1 .column, section.art2 .column {
+section.art1 .column,
+section.art2 .column {
   flex: 50%;
 }
-section.art1 .full-header, section.art2 .full-header {
+section.art1 .full-header,
+section.art2 .full-header {
   width: 24em;
   height: 4.13em;
   margin: 0;
 }
-section.art1 .full-header .header, section.art2 .full-header .header {
+section.art1 .full-header .header,
+section.art2 .full-header .header {
   width: 24em;
   height: 4.13em;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-section.art1 .full-header .header h2, section.art2 .full-header .header h2 {
+section.art1 .full-header .header h2,
+section.art2 .full-header .header h2 {
   text-align: left;
 }
-section.art1 .full-header .header img, section.art2 .full-header .header img {
+section.art1 .full-header .header img,
+section.art2 .full-header .header img {
   vertical-align: middle;
   width: 3.5rem;
   filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
 }
-section.art1 .info, section.art2 .info {
+section.art1 .info,
+section.art2 .info {
   display: block;
   margin-left: auto;
   padding-top: 7.25em;
   padding-bottom: 3.53125em;
   width: 33.5em;
 }
-section.art1 .info p, section.art2 .info p {
+section.art1 .info p,
+section.art2 .info p {
   text-align: right;
 }
-section.art1 .info-cta, section.art2 .info-cta {
+section.art1 .info-cta,
+section.art2 .info-cta {
   display: flex;
   align-content: center;
   justify-content: flex-end;
   margin: auto;
 }
-section.art1 .info-cta h3, section.art2 .info-cta h3 {
+section.art1 .info-cta h3,
+section.art2 .info-cta h3 {
   margin: 0;
 }
-section.art1 .info-cta img, section.art2 .info-cta img {
+section.art1 .info-cta img,
+section.art2 .info-cta img {
   vertical-align: middle;
   width: 3rem;
   filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
 }
-section.art1 .image, section.art2 .image {
+section.art1 .image,
+section.art2 .image {
   padding-top: 1.9375em;
 }
-section.art1 .image img, section.art2 .image img {
+section.art1 .image img,
+section.art2 .image img {
   width: 33.5em;
   height: 25em;
   -o-object-fit: cover;
@@ -988,7 +1065,8 @@ section.gallery .wrapper .artGallery .box .text {
   top: 0.5em;
   left: 1em;
 }
-section.gallery .wrapper .artGallery .box .text h4, section.gallery .wrapper .artGallery .box .text span.psmall {
+section.gallery .wrapper .artGallery .box .text h4,
+section.gallery .wrapper .artGallery .box .text span.psmall {
   text-align: left;
   color: var(--white1);
   z-index: 2;
@@ -1024,7 +1102,8 @@ section.gallery .wrapper .artGallery .box:before .text:before {
   top: 0.5em;
   left: 1em;
 }
-section.gallery .wrapper .artGallery .box:before .text:before h4, section.gallery .wrapper .artGallery .box:before .text:before span.psmall {
+section.gallery .wrapper .artGallery .box:before .text:before h4,
+section.gallery .wrapper .artGallery .box:before .text:before span.psmall {
   text-align: left;
   color: var(--white1);
   z-index: 2;
