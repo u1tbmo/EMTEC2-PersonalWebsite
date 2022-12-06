@@ -448,6 +448,9 @@ section.about-section .wrapper .content .about {
   align-items: center;
   gap: 1em;
 }
+section.about-section .wrapper .content .about h6 .attribution a {
+  color: var(--accent2);
+}
 section.about-section .wrapper .content .about ul li {
   list-style-type: none;
   display: inline-block;
