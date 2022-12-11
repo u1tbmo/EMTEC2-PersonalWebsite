@@ -931,12 +931,15 @@ section.hero-myart .wrapper .background {
 
 section.art1,
 section.art2 {
-  margin: 2.5em 5em 10em 5em;
+  margin: 2.5em 5em 5em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 section.art1 .row,
 section.art2 .row {
   display: flex;
-  width: 100%;
 }
 section.art1 .column,
 section.art2 .column {
@@ -998,6 +1001,8 @@ section.art2 .info-cta img {
 section.art1 .image,
 section.art2 .image {
   padding-top: 1.9375em;
+  width: 33.5em;
+  margin: 0;
 }
 section.art1 .image img,
 section.art2 .image img {
@@ -1117,6 +1122,10 @@ section.gallery .wrapper .artGallery .box:before .text:before span.psmall {
 
 section.timelapses {
   margin: 0 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
 }
 section.timelapses .wrapper .full-majorheader {
   display: flex;
@@ -1142,7 +1151,7 @@ section.timelapses .wrapper .full-majorheader .majorheader img {
   filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
 }
 section.timelapses .wrapper .selfportraitday2022 {
-  height: 54.38em;
+  height: 40em;
 }
 section.timelapses .wrapper .selfportraitday2022 .full-header {
   width: 40em;

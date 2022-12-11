@@ -1049,11 +1049,15 @@ section.hero-myart {
 
 section.art1,
 section.art2 {
-    margin: 2.5em 5em 10em 5em;
+    margin: 2.5em 5em 5em 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     .row {
         display: flex;
-        width: 100%;
+        // width: 100%;
     }
 
     .column {
@@ -1115,6 +1119,8 @@ section.art2 {
 
     .image {
         padding-top: 1.9375em;
+        width: 33.50em;
+        margin: 0;
 
         img {
             width: 33.50em;
@@ -1253,6 +1259,10 @@ section.gallery {
 
 section.timelapses {
     margin: 0 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 
     .wrapper .full-majorheader {
         display: flex;
@@ -1284,7 +1294,7 @@ section.timelapses {
 
     .wrapper {
         .selfportraitday2022 {
-            height: 54.38em;
+            height: 40em;
 
             .full-header {
                 width: 40em;
