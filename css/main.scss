@@ -1163,12 +1163,10 @@ section.gallery {
         }
 
         .artGallery {
-            // max-width: 75em;
             margin: 0 5em;
             padding: 1em;
             display: grid;
-            // grid-template-columns: 1fr 1fr 1fr;
-            grid-template-columns: repeat(3, 20.19em);
+            grid-template-columns: repeat(3, 20.19em); 
             grid-auto-rows: 6.52em;
             gap: 1em;
 
