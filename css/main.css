@@ -361,14 +361,18 @@ section about p {
 }
 
 section.my-code {
-  margin: 2.5em 5em 10em 5em;
+  margin: 2.5em 5em 5em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 section.my-code .row {
   display: flex;
-  width: 100%;
 }
 section.my-code .column {
   flex: 50%;
+  margin: 0 1em;
 }
 section.my-code .full-header {
   width: 21.94em;
@@ -428,14 +432,18 @@ section.my-code .image img {
 }
 
 section.my-art {
-  margin: 2.5em 5em 10em 5em;
+  margin: 2.5em 5em 5em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 section.my-art .row {
   display: flex;
-  width: 100%;
 }
 section.my-art .column {
   flex: 50%;
+  margin: 0 1em;
 }
 section.my-art .full-header {
   float: right;
@@ -979,6 +987,7 @@ section.art2 .row {
 section.art1 .column,
 section.art2 .column {
   flex: 50%;
+  margin: 0 1em;
 }
 section.art1 .full-header,
 section.art2 .full-header {
