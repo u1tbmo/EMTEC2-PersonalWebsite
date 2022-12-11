@@ -1067,22 +1067,23 @@ section.hero-myart {
     margin: 2.5em 5em 5em 5em;
     align-items: center;
     justify-content: center;
+
     .recent-full-header {
         width: 24.00em;
         height: 4.13em;
         margin: 0;
-    
+
         .header {
             width: 24.00em;
             height: 4.13em;
             display: flex;
             align-items: center;
             justify-content: space-between;
-    
+
             h2 {
                 text-align: left;
             }
-    
+
             img {
                 vertical-align: middle;
                 width: 3.5rem;
@@ -1182,10 +1183,11 @@ section.gallery {
     height: 105em;
 
     .wrapper {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
         .full-header {
             display: flex;
             align-items: center;
@@ -1218,7 +1220,7 @@ section.gallery {
             margin: 0 5em;
             padding: 1em;
             display: grid;
-            grid-template-columns: repeat(3, 20.19em); 
+            grid-template-columns: repeat(3, 20.19em);
             grid-auto-rows: 6.52em;
             gap: 1em;
 
@@ -1379,7 +1381,7 @@ section.timelapses {
         }
 
         .jonathanbailey {
-            height: 54.38em;
+            height: 40em;
 
             .full-header {
                 width: 31.25em;
