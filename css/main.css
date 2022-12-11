@@ -169,7 +169,15 @@ section.timelapses h4,
 section.timelapses h5,
 section.timelapses h6,
 section.timelapses p,
-section.timelapses span.psmall {
+section.timelapses span.psmall,
+.recent-full-header h1,
+.recent-full-header h2,
+.recent-full-header h3,
+.recent-full-header h4,
+.recent-full-header h5,
+.recent-full-header h6,
+.recent-full-header p,
+.recent-full-header span.psmall {
   color: var(--smokyblack);
 }
 
@@ -927,6 +935,33 @@ section.hero-myart .wrapper .background {
   height: 45em;
   width: 100%;
   z-index: -100;
+}
+
+.recent-wrapper {
+  display: flex;
+  margin: 2.5em 5em 5em 5em;
+  align-items: center;
+  justify-content: center;
+}
+.recent-wrapper .recent-full-header {
+  width: 24em;
+  height: 4.13em;
+  margin: 0;
+}
+.recent-wrapper .recent-full-header .header {
+  width: 24em;
+  height: 4.13em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.recent-wrapper .recent-full-header .header h2 {
+  text-align: left;
+}
+.recent-wrapper .recent-full-header .header img {
+  vertical-align: middle;
+  width: 3.5rem;
+  filter: invert(12%) sepia(18%) saturate(0%) hue-rotate(89deg) brightness(98%) contrast(87%);
 }
 
 section.art1,
