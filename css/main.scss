@@ -1130,6 +1130,10 @@ section.gallery {
     height: 105em;
 
     .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         .full-header {
             display: flex;
             align-items: center;
@@ -1163,7 +1167,8 @@ section.gallery {
             margin: 0 5em;
             padding: 1em;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            // grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: repeat(3, 20.19em);
             grid-auto-rows: 6.52em;
             gap: 1em;
 
