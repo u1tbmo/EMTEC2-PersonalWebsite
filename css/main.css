@@ -714,14 +714,18 @@ section.hero-aboutme .wrapper .background {
 }
 
 section.euanjed {
-  margin: 2.5em 5em 10em 5em;
+  margin: 2.5em 5em 5em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 section.euanjed .row {
   display: flex;
-  width: 100%;
 }
 section.euanjed .column {
   flex: 50%;
+  margin: 0 1em;
 }
 section.euanjed .full-header {
   width: 31.31em;

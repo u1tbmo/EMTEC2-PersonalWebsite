@@ -778,15 +778,20 @@ section.hero-aboutme {
 }
 
 section.euanjed {
-    margin: 2.5em 5em 10em 5em;
+    margin: 2.5em 5em 5em 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     .row {
         display: flex;
-        width: 100%;
+        // width: 100%;
     }
 
     .column {
         flex: 50%;
+        margin: 0 1em;
     }
 
     .full-header {
